@@ -4,13 +4,13 @@ Bu proje, Java programlama dili ile yazılmış basit bir komut satırı (consol
 
 ## Özellikler
 
-- 📘 Kitap ekleme (başlık ve yazar bilgisiyle)
-- 🔍 Kitap ismine göre arama (tek kelime bile yeterli, büyük/küçük harf duyarsız)
-- 🧾 Kitaplar için otomatik ISBN üretimi (kitap adı ve yazara göre algoritmik)
-- 📥 ISBN ile kitap ödünç alma (yalnızca kitap mevcutsa)
-- 📤 ISBN ile kitap iade etme
-- 📚 Kütüphanedeki tüm kitapları listeleme (mevcut ya da ödünç bilgisiyle)
-- 🔄 Sürekli dönen menü arayüzü (kullanıcı çıkana kadar)
+- Kitap ekleme (başlık ve yazar bilgisiyle)
+- Kitap ismine göre arama (tek kelime bile yeterli, büyük/küçük harf duyarsız)
+- Kitaplar için otomatik ISBN üretimi (kitap adı ve yazara göre algoritmik)
+- ISBN ile kitap ödünç alma (yalnızca kitap mevcutsa)
+- ISBN ile kitap iade etme
+- Kütüphanedeki tüm kitapları listeleme (mevcut ya da ödünç bilgisiyle)
+- Sürekli dönen menü arayüzü (kullanıcı çıkana kadar)
 
 ## ISBN Üretim Algoritması
 
@@ -43,11 +43,11 @@ Yazar: Ahmet Demir
 
 ```
 --- Library Management System ---
-1. Add Book
-2. Display All Books
-3. Search Book (By Title)
-4. Borrow Book (By ISBN)
-5. Return Book (By ISBN)
+1. Add a new book
+2. Display all books
+3. Search for a book with a title
+4. Check out a book with ISBN
+5. Return a book with ISBN
 6. Exit
 Enter your choice: 1
 Book Title: Veri Yapıları
@@ -63,7 +63,3 @@ Bu proje aşağıdaki konularda pratik yapmak amacıyla geliştirilmiştir:
 - Konsol tabanlı kullanıcı etkileşimi (Scanner)
 - Döngüler ve koşullar ile kontrol akışı
 - Basit algoritma geliştirme (ISBN üretimi gibi)
-
----
-
-Projeyi ihtiyacınıza göre özgürce geliştirebilir, genişletebilirsiniz. ✨
